@@ -28,7 +28,11 @@ const BookPopup = ({ isOpen, onClose }) => {
           <X size={24} />
         </button>
         <div className="book-popup-content">
-          <img src="/images/book_phone mockup.png" alt="Culture of Gratitude" className="book-popup-image" />
+          <img 
+            src={process.env.PUBLIC_URL + "/images/book_phone mockup.png"} 
+            alt="Culture of Gratitude" 
+            className="book-popup-image" 
+          />
           <div className="book-popup-info">
             <h3>Culture of Gratitude</h3>
             <p className="book-subtitle">90-Day Devotional for Falling in Love with Life</p>

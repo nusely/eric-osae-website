@@ -92,7 +92,7 @@ const HeroSection = ({ onGiftClick, onBookClick }) => {
               }}
               transition={{ duration: 0.3 }}
             >
-              <img src="/images/Eric-Osae_Twum-slider-pic1.png" alt="Eric Osae-Twum" className="profile-photo" />
+              <img src={process.env.PUBLIC_URL + "/images/Eric-Osae_Twum-slider-pic1.png"} alt="Eric Osae-Twum" className="profile-photo" />
               <motion.div
                 className="profile-glow"
                 animate={{

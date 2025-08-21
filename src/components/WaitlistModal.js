@@ -87,9 +87,9 @@ const WaitlistModal = ({ isOpen, onClose }) => {
         <div className="waitlist-content">
           <div className="waitlist-form">
             <div className="book-image-container">
-              <img 
-                src="/images/book_ekot_bg.webp" 
-                alt="The Mess is the Map" 
+              <img
+                src={process.env.PUBLIC_URL + "/images/book_ekot_bg.webp"}
+                alt="The Mess is the Map"
                 className="waitlist-book-image"
               />
             </div>
