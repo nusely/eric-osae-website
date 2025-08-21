@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Mail, Quote, Heart } from 'lucide-react';
+import { Quote, Heart } from 'lucide-react';
 import ContactForm from './ContactForm';
 
 const ContactSection = () => {
@@ -25,7 +25,7 @@ const ContactSection = () => {
           <div className="contact-content">
             <div className="contact-info">
               <h2>Feel free to contact me</h2>
-              <img src={process.env.PUBLIC_URL + "/images/eot_.png"} alt="Eric Osae-Twum" className="contact-photo" />
+              <img src="/images/eot_.png" alt="Eric Osae-Twum" className="contact-photo" />
               <div className="email-centered">
                 <p>osaetwum@gmail.com</p>
               </div>

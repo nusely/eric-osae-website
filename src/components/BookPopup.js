@@ -29,7 +29,7 @@ const BookPopup = ({ isOpen, onClose }) => {
         </button>
         <div className="book-popup-content">
           <img 
-            src={process.env.PUBLIC_URL + "/images/book_phone mockup.png"} 
+            src="/images/book_phone mockup.png" 
             alt="Culture of Gratitude" 
             className="book-popup-image" 
           />

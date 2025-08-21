@@ -21,7 +21,7 @@ const InsightsSection = ({ onWaitlistClick }) => {
               <div className="upcoming-book-card">
                 <div className="book-cover-placeholder">
                   <img 
-                    src={process.env.PUBLIC_URL + "/images/book_ekot.jpg"} 
+                    src="/images/book_ekot.jpg" 
                     alt="The Mess is the Map" 
                     style={{ width: '100%', height: '100%', objectFit: 'cover', borderRadius: '8px' }} 
                   />

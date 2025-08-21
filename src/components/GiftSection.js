@@ -4,7 +4,7 @@ import GiftForm from './GiftForm';
 
 const BookIllustration = () => (
   <img
-    src={process.env.PUBLIC_URL + "/images/ekotgift.jpg"}
+    src="/images/ekotgift.jpg"
     alt="Culture of Gratitude Book"
     width="450"
     height="350"
